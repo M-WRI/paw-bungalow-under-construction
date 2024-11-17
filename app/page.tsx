@@ -10,7 +10,7 @@ export default function Home() {
           Paw Bungalow
         </h1>
         <p className="font-medium text-primary text-xl text-center">
-          We'll be back soon...
+          We&apos;ll be back soon...
         </p>
       </div>
       <Link
