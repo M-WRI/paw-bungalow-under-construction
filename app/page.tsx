@@ -10,14 +10,14 @@ export default function Home() {
           Paw Bungalow
         </h1>
         <p className="font-medium text-primary text-xl text-center">
-          We will be back soon...
+          We'll be back soon...
         </p>
       </div>
       <Link
         href="/impress"
         className="text-primary text-lg underline absolute bottom-8 right-8"
       >
-        Impressum
+        Imprint
       </Link>
     </main>
   );

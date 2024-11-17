@@ -7,12 +7,12 @@ export default function Impress() {
       <div className="flex flex-col items-center justify-center p-4 bg-white rounded-xl">
         <Image src="/logo.svg" alt="Logo" width={200} height={200} />
         <h1 className="font-medium text-primary text-5xl text-center mb-4">
-          Impressum
+          Imprint
         </h1>
         <div className="text-primary text-center">
-          <p>Angaben gemäß § 5 TMG</p>
+          <p>Information in accordance with § 5 TMG</p>
           <p className="mt-4">
-            <strong>Name und Anschrift:</strong>
+            <strong>Name and Address:</strong>
             <br />
             Moritz Wright
             <br />
@@ -20,23 +20,23 @@ export default function Impress() {
             <br />
             10247 Berlin
             <br />
-            Deutschland
+            Germany
           </p>
           <p className="mt-4">
-            <strong>Kontakt:</strong>
+            <strong>Contact:</strong>
             <br />
-            E-Mail: info@pawbungalow.com
+            Email: info@pawbungalow.com
             <br />
-            Telefon: +49 (0)157 388 311 79
+            Phone: +49 (0)157 388 311 79
           </p>
           <p className="mt-4">
             <strong>
-              Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+              Responsible for content in accordance with § 55 Abs. 2 RStV:
             </strong>
             <br />
             Moritz Wright
             <br />
-            Adresse wie oben
+            Address as above
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function Impress() {
         href="/"
         className="text-primary text-lg underline absolute bottom-8 right-8"
       >
-        Zurück
+        Back
       </Link>
     </main>
   );
