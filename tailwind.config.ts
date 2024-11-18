@@ -15,7 +15,7 @@ export default {
         secondary: "#FDF9E8",
       },
       fontFamily: {
-        primary: ["Sofia Pro Soft", "sans-serif"],
+        primary: ["var(--font-sofia-pro-soft)", "sans-serif"],
       },
     },
   },

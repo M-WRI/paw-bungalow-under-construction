@@ -1,6 +1,49 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import Head from "next/head";
 import "./globals.css";
+
+const sofiaProSoft = localFont({
+  src: [
+    {
+      path: "../public/fonts/SofiaProSoftLight.woff",
+      weight: "300",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftLight-italic.woff",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftRegular.woff",
+      weight: "400",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftRegular-Italic.woff",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftMedium.woff",
+      weight: "500",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftMedium-italic.woff",
+      weight: "500",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftBold.woff",
+      weight: "700",
+    },
+    {
+      path: "../public/fonts/SofiaProSoftBold-italic.woff",
+      weight: "700",
+      style: "italic",
+    },
+  ],
+  variable: "--font-sofia-pro-soft",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,7 +74,7 @@ export default function RootLayout({
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <body>{children}</body>
+      <body className={`${sofiaProSoft.variable}`}>{children}</body>
     </html>
   );
 }
