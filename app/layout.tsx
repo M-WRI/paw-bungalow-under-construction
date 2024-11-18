@@ -6,38 +6,38 @@ import "./globals.css";
 const sofiaProSoft = localFont({
   src: [
     {
-      path: "fonts/SofiaProSoftLight.woff",
+      path: "../public/fonts/SofiaProSoftLight.woff",
       weight: "300",
     },
     {
-      path: "fonts/SofiaProSoftLight-italic.woff",
+      path: "../public/fonts/SofiaProSoftLight-italic.woff",
       weight: "300",
       style: "italic",
     },
     {
-      path: "fonts/SofiaProSoftRegular.woff",
+      path: "../public/fonts/SofiaProSoftRegular.woff",
       weight: "400",
     },
     {
-      path: "fonts/SofiaProSoftRegular-Italic.woff",
+      path: "../public/fonts/SofiaProSoftRegular-Italic.woff",
       weight: "400",
       style: "italic",
     },
     {
-      path: "fonts/SofiaProSoftMedium.woff",
+      path: "../public/fonts/SofiaProSoftMedium.woff",
       weight: "500",
     },
     {
-      path: "fonts/SofiaProSoftMedium-italic.woff",
+      path: "../public/fonts/SofiaProSoftMedium-italic.woff",
       weight: "500",
       style: "italic",
     },
     {
-      path: "fonts/SofiaProSoftBold.woff",
+      path: "../public/fonts/SofiaProSoftBold.woff",
       weight: "700",
     },
     {
-      path: "fonts/SofiaProSoftBold-italic.woff",
+      path: "../public/fonts/SofiaProSoftBold-italic.woff",
       weight: "700",
       style: "italic",
     },
