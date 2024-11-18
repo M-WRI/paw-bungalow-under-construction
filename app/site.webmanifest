@@ -1,6 +1,8 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Paw Bungalow",
+  "short_name": "PawB",
+  "description": "Useful tips and tricks for your furry friends.",
+  "start_url": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
