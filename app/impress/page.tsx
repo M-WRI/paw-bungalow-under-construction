@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Impress() {
   return (
-    <main className="h-full w-full flex items-center justify-center">
+    <main className="h-screen w-screen flex items-center justify-center bg-secondary font-primary">
       <div className="flex flex-col items-center justify-center p-4 bg-white rounded-xl">
         <Image src="/logo.svg" alt="Logo" width={200} height={200} />
         <h1 className="font-medium text-primary text-5xl text-center mb-4">
